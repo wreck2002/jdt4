@@ -1,0 +1,13 @@
+boc@boc:~/project/test/test1x/test18/test3_graph_V0.4$ make run
+./test2
+argc = 1
+Hello, world jdt3! 
+points: 15, grid_size: 5
+progress: 0.032% , 347  0
+  0 : 0, (0, 0) (2, 3) (4, 2) (0, 0) (0, 0) (0, 0) (0, 0) (0, 0) (0, 0) (0, 0) (0, 0) (0, 0) (4, 0) (4, 0) (4, 2) 
+progress: 0.96% , 2605  80000000000
+  0 : 80000000000, (0, 4) (0, 4) (1, 0) (1, 4) (2, 1) (3, 0) (4, 2) (4, 2) (0, 0) (0, 4) (1, 0) (4, 0) (4, 3) (4, 4) (4, 4) 
+complete.
+93987239238, valid_count = 0
+boc@boc:~/project/test/test1x/test18/test3_graph_V0.4$ 
+
