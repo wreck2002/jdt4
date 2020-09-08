@@ -209,16 +209,16 @@ int main_jdt4() {
 #endif
 
   /// test code start
-  node_list_tmp[0].x = 0;
-  node_list_tmp[0].y = 2;
-  node_list_tmp[1].x = 0;
-  node_list_tmp[1].y = 3;
-  node_list_tmp[2].x = 0;
-  node_list_tmp[2].y = 5;
-  node_list_tmp[3].x = 0;
-  node_list_tmp[3].y = 6;
-  node_list_tmp[4].x = 1;
-  node_list_tmp[4].y = 1;
+  // node_list_tmp[0].x = 0;
+  // node_list_tmp[0].y = 0;
+  // node_list_tmp[1].x = 0;
+  // node_list_tmp[1].y = 1;
+  // node_list_tmp[2].x = 0;
+  // node_list_tmp[2].y = 2;
+  // node_list_tmp[3].x = 0;
+  // node_list_tmp[3].y = 3;
+  // node_list_tmp[4].x = 0;
+  // node_list_tmp[4].y = 4;
   // node_list_tmp[5].x = 6;
   // node_list_tmp[5].y = 4;
   // node_list_tmp[6].x = 6;
@@ -269,7 +269,7 @@ int main_jdt4() {
     if (progress_tag_previous != progress_tag) {
       progress_count++;
     }
-    if (iterate_size % 40000000000LL == 0) {
+    if (iterate_size % 8000000000LL == 0) {
       // if (progress_count % (progress_total / 1000) == 0) {
         cout << "progress: " << 100.0 * progress_count / progress_total <<
           "% , " << progress_tag << "  " << iterate_size << endl;

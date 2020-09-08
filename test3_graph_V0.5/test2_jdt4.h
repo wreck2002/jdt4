@@ -11,7 +11,7 @@
 #define JDT_K   4
 #define JDT4_GRID_SIZE  7
 // point count
-#define JDT4_N  16
+#define JDT4_N  17
 // minimum line count per point
 #define JDT4_MIN_INCIDENCE  2
 
@@ -22,6 +22,7 @@ extern int g_count;
 // 1 : reserve
 // 10 : load graphs from file, and display
 // 11 : load graphs from file, but not display
+// 12 : calculate and display
 extern int g_option;
 
 #endif  // TEST2_JDT4_H_
